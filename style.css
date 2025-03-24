@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+body { 
+height: 100%;
+width: 100%; 
+background: #1f1f7d; 
+overflow: hidden; 
+text-align: center; 
+justify-content: center; 
+}
+
+.container {
+position: absolute; 
+left: 50%;
+top: 50%; 
+transform: 
