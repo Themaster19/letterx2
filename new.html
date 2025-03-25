@@ -4,7 +4,119 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Evan</title>
-    <link rel="stylesheet" href="new.css" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+        * { 
+            box-sizing: border-box;
+        } 
+
+        body { 
+            font-family: "Varela Round", "Quicksand", sans-serif; 
+            background: url(aquarium.jpg); 
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-color: black; 
+        } 
+
+        .postcard {
+            width: 800px; 
+            height: 500px;
+            background: rgba(255, 255, 255, 0.101);
+            margin: 0 auto;
+            border-radius: 2%;
+            display: flex; 
+            justify-content: space-between; 
+            padding: 3em;
+            box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+            -ms-transform: rotate(2.5deg); /* IE 9 */ 
+            -webkit-transform: rotate(2.5deg); /* Chrome, Safari, Opera */ 
+            transform: rotate(2.5deg); 
+            -moz-transition: all 0.5s ease; 
+            -o-transition: all 0.5s ease; 
+            transition: all 0.5s ease; 
+        } 
+
+        .postcard1 {
+            width: 800px; 
+            height: 500px; 
+            background: #191970; 
+            position: absolute; 
+            left: 24%;
+            -webkit-filter: blur(2px);
+            z-index: -1; 
+            margin: 0 auto; 
+            border-radius: 2%; 
+            display: flex; 
+            justify-content: space-between; 
+            padding: 3em; 
+            box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3); 
+            -ms-transform: rotate(2.5deg); /* IE 9 */ 
+            -webkit-transform: rotate(2.5deg); /* Chrome, Safari, Opera */ 
+            transform: rotate(2.5deg); 
+            -moz-transition: all 0.5s ease; 
+            -o-transition: all 0.5s ease; 
+            transition: all 0.5s ease; 
+        } 
+
+        h1 { 
+            text-align: center; 
+            font-size: 4.5em; 
+            color: #ADD8E6; 
+            margin-bottom: 5px; 
+        }
+
+        /* Animation */
+        .postcard:hover, 
+        .postcard:active,
+        .postcard:focus {
+            -ms-transform: rotate(2.5deg); /* IE 9 */ 
+            -webkit-transform: rotate(2.5deg); /* Chrome, Safari, Opera */ 
+            -moz-transition: all 0.5s ease; 
+            -o-transition: all 0.5s ease; 
+            transition: all 0.5s ease; 
+        } 
+
+        .mail_stamp {
+            width: 100px; 
+            float: right; 
+        } 
+
+        .push { 
+            margin-bottom: 1em; 
+            margin-top: 0.5em;
+        } 
+
+        /* Footer */
+        footer {
+            margin: 2em auto; 
+            text-align: center; 
+            font-family: "Varela Round", "Quicksand", sans-serif;
+            color: blue; 
+        } 
+
+        footer p { 
+            font-size: 1em; 
+            letter-spacing: 1px; 
+        } 
+
+        p span { 
+            font-size: 30px; 
+            font-weight: 600; 
+            text-shadow: 0 0 20px rgb(255, 255, 255);
+            color: #ADD8E6; 
+        } 
+
+        p { 
+            font-size: 30px; 
+            font-family: cursive; 
+            font-weight: 540;
+        }
+
+        .ullu {
+            font-size: 25px; 
+            text-shadow: 0 0 20px rgb(255, 255, 255); 
+        }
+    </style>
 </head>
 <body>
     <div class="wrap">
@@ -16,7 +128,7 @@
                 <span>Princess,</span>
                 <br />
                 From the day we met I knew I'd love you for <br /> a lifetime.
-                At the start of this all I honestly didn't think you would fall for me. It felt like fireworks going off the day you said yes to me. You should of seen how happy I was. Now we are 3 months in and [...]
+                At the start of this all I honestly didn't think you would fall for me. It felt like fireworks going off the day you said yes to me. You should of seen how happy I was. Now we are 3 months in and I've never been happier. 
                 <br />
                 <span class="ullu">
                     Forever your teddy bear,
@@ -28,8 +140,8 @@
             </div>
         </div>
     </div>
-<footer>
-<p>Made by your prince.</p>
-</footer>
+    <footer>
+        <p>Made by your prince.</p>
+    </footer>
 </body>
 </html>
